@@ -5,9 +5,7 @@
 }
 
 /* Custom Properties, update these for your own design */
-
 :root {
-    --ff-primary: "Lora", serif;
     --ff-secondary: "Roboto Slab", serif;
 
     --fw-reg: 400;
@@ -68,7 +66,6 @@ strong {
 }
 
 /* Buttons */
-
 .btn {
     display: inline-block;
     padding: 0.5em 2.5em;
@@ -88,7 +85,6 @@ strong {
 }
 
 /* Typography */
-
 h1,
 h2,
 h3 {
@@ -384,11 +380,20 @@ header {
     text-align: center;
 }
 
-.portfolio {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+.portfolio__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.portfolio__img {
+    height: 80%;
+    width: 80%;
+    -webkit-box-shadow: 4px 5px 11px -5px rgba(92, 90, 92, 1);
+    -moz-box-shadow: 4px 5px 11px -5px rgba(92, 90, 92, 1);
+    box-shadow: 4px 5px 11px -5px rgba(92, 90, 92, 1);
+}
+/* 
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
@@ -408,10 +413,9 @@ header {
 .portfolio__item:focus .portfolio__img {
     transform: scale(1.2);
     opacity: 0.5;
-}
+} */
 
 /* footer */
-
 .footer {
     background: #111;
     color: var(--clr-accent);
@@ -452,18 +456,4 @@ header {
 
 .social-list__link {
     padding: 0.5em;
-}
-
-/* Individual portfolio item styles */
-
-.portfolio-item-individual {
-    padding: 0 2em 2em;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.portfolio-item-individual p {
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
 }
