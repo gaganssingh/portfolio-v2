@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* Custom Properties, update these for your own design */
+/* Styling variables */
 :root {
     --ff-secondary: "Roboto Slab", serif;
 
@@ -377,7 +377,6 @@ header {
 }
 
 /* My Work */
-
 .my-work {
     background-color: var(--clr-dark);
     color: var(--clr-light);
