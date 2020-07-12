@@ -1,312 +1,305 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="normalize.css" />
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Gagan Singh Portfolio</title>
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
-        />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-            integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
-            crossorigin="anonymous"
-        />
-        <link
-            href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap"
-            rel="stylesheet"
-        />
-        <link rel='icon' href='img/favicon.ico' type='image/x-icon'/ >
-        <link rel="stylesheet" href="css/style.css" />
-    </head>
-    <body>
-        <header>
-            <div class="logo">
-                <img src="img/gagansingh-logo.png" alt="" />
-            </div>
-            <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link">Home</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#services" class="nav__link">What I Bring</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#about" class="nav__link">About Me</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#work" class="nav__link">My Work</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#connect" class="nav__link">Let's Connect</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-
-        <main>
-            <!-- Introduction -->
-            <section class="intro" id="home">
-                <h1 class="section__title section__title--intro">
-                    Hi, I am <strong>Gagan Singh</strong>
-                </h1>
-                <p class="section__subtitle section__subtitle--intro">
-                    project manager
-                    <br />
-                    full-stack dev
-                </p>
-                <img
-                    src="img/gagan-01.png"
-                    alt="a picture of Gagan Singh smiling"
-                    class="intro__img"
-                />
-            </section>
-
-            <!-- My services -->
-            <section class="my-services" id="services">
-                <h2 class="section__title section__title--services">
-                    What I Bring
-                </h2>
-                <div class="services">
-                    <div class="service">
-                        <h3>Full Stack Development</h3>
-                        <p>
-                            From designing complex database schemas to
-                            implementing full-stack applications, I love the
-                            process of converting ideas into user-focused
-                            solutions. There's nothing better than seeing one of
-                            your creations take shape in a way that other people
-                            will enjoy using it.
-                        </p>
-                    </div>
-                    <!-- / service -->
-
-                    <div class="service">
-                        <h3>Product Development</h3>
-                        <p>
-                            With experience in over four industries, namely,
-                            Automotive, Power Distribution, Heavy Equipment &
-                            Materials Engineering; I have always enjoyed
-                            creating something from nothing. Having developed
-                            products from conceptualization to delivery, I
-                            understand what it takes to make an idea into
-                            reality.
-                        </p>
-                    </div>
-                    <!-- / service -->
-
-                    <div class="service">
-                        <h3>Project Management</h3>
-                        <p>
-                            Managing multi-million dollar projects can be hard,
-                            but it doesn't have to be boring. While working as a
-                            Project manager for the last 5 years, I gained
-                            first-hand insight into the complex workings of
-                            cross-functional teams and what it takes to deliver
-                            on-time and within budget.
-                        </p>
-                    </div>
-                    <!-- / service -->
-                </div>
-                <!-- / services -->
-
-                <a href="#work" class="btn">My Work</a>
-            </section>
-
-            <!-- About me -->
-            <section class="about-me" id="about">
-                <h2 class="section__title section__title--about">Who I am</h2>
-                <p class="section__subtitle section__subtitle--about">
-                    Project manager & developer from KW
-                </p>
-
-                <div class="about-me__body">
-                    <p>
-                        I am a Project Manager from Kitchener with a background
-                        in Full-Stack Development &amp; Manufacturing
-                        Engineering, who enjoys problem-solving via creative
-                        ideation and implementation of user-first designs. I
-                        work at my best when I am creating new products or
-                        solving complex problems alongside other like-minded
-                        individuals.
-                    </p>
-                    <p>
-                        Outside of work, I am an avid hiker who likes to learn
-                        new skills and explore new places around the world.
-                    </p>
-                </div>
-
-                <img
-                    src="img/gagan-03.png"
-                    alt="Gagan at the screaming heads"
-                    class="about-me__img"
-                />
-            </section>
-
-            <!-- My Work -->
-            <section class="my-work" id="work">
-                <h2 class="section__title section__title--work">My work</h2>
-                <p class="section__subtitle section__subtitle--work">
-                    Some of my recent work
-                </p>
-
-                <div class="portfolio">
-                    <!-- Portfolio item 01 -->
-                    <div class="portfolio__item">
-                        <img
-                            src="img/project-travelog.gif"
-                            alt=""
-                            class="portfolio__img"
-                        />
-                        <h3>travelog</h3>
-                        <p>
-                            Travelog is a CRUD app where travellers can log
-                            places for easy access. It provides Login &amp;
-                            Signup functionality, along with the ability to view
-                            user places on an embedded Google Maps view.
-                        </p>
-                        <h4>
-                            Tech stack:
-                            <span
-                                >React, React Hooks, Node, Express, PostgreSQL,
-                                HTML5, CSS3</span
-                            >
-                        </h4>
-                        <div class="portfolio__links">
-                            <a
-                                href="https://travelog-app.now.sh/"
-                                target="_blank"
-                                class="btn"
-                                >Live Site</a
-                            >
-                            <a
-                                href="https://github.com/gaganssingh/travelog-app"
-                                target="_blank"
-                                class="btn"
-                                >Github repo</a
-                            >
-                        </div>
-                    </div>
-
-                    <hr />
-
-                    <!-- Portfolio item 02 -->
-                    <div class="portfolio__item">
-                        <img
-                            src="img/project-babyaid.gif"
-                            alt=""
-                            class="portfolio__img"
-                        />
-                        <h3>babyaid</h3>
-                        <p>
-                            Aimed at new parents, babyaid acts as a
-                            starter-guide and provides crucial information on
-                            feeding children under 1 year of age. Along with
-                            these features, this app also includes an age-based
-                            recipe finder and find a doctor feature.
-                        </p>
-                        <h4>
-                            Tech stack:
-                            <span
-                                >React, Node, Express, PostgreSQL, HTML5,
-                                CSS3</span
-                            >
-                        </h4>
-                        <div class="portfolio__links">
-                            <a
-                                href="https://babyaid-client.now.sh/"
-                                target="_blank"
-                                class="btn"
-                                >Live Site</a
-                            >
-                            <a
-                                href="https://github.com/gaganssingh/babyaid-client"
-                                target="_blank"
-                                class="btn"
-                                >Github repo</a
-                            >
-                        </div>
-                    </div>
-
-                    <hr />
-
-                    <!-- Portfolio item 03 -->
-                    <div class="portfolio__item">
-                        <img
-                            src="img/project-cryptotracker.gif"
-                            alt=""
-                            class="portfolio__img"
-                        />
-                        <h3>CryptoTracker</h3>
-                        <p>
-                            CryptoTracker is a jQuery web app that lets users
-                            check prices of more than 30 cryptocurrencies
-                            against user-selected fiat currency.
-                        </p>
-                        <h4>
-                            Tech stack:
-                            <span>Javascript, jQuery, HTML5, CSS3</span>
-                        </h4>
-                        <div class="portfolio__links">
-                            <a
-                                href="https://gaganssingh.github.io/CryptoTracker/"
-                                target="_blank"
-                                class="btn"
-                                >Live Site</a
-                            >
-                            <a
-                                href="https://github.com/gaganssingh/CryptoTracker"
-                                target="_blank"
-                                class="btn"
-                                >Github repo</a
-                            >
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <!-- Footer -->
-        <footer class="footer" id="connect">
-            <h3>Let's Connect</h3>
-            <ul class="social-list">
-                <li class="social-list__item">
-                    <a
-                        class="social-list__link"
-                        href="mailto:gagansingh.dev@outlook.com"
-                        target="_blank"
-                    >
-                        <i class="fas fa-envelope-open-text"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a
-                        class="social-list__link"
-                        href="https://www.linkedin.com/in/gssingh/"
-                        target="_blank"
-                    >
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a
-                        class="social-list__link"
-                        href="https://github.com/gaganssingh"
-                        target="_blank"
-                    >
-                        <i class="fab fa-github"></i>
-                    </a>
-                </li>
+   <head>
+      <link rel="stylesheet" href="normalize.css" />
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Gagan Singh Portfolio</title>
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+      />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+         integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+         crossorigin="anonymous"
+      />
+      <link
+         href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap"
+         rel="stylesheet"
+      />
+      <link rel='icon' href='img/favicon.ico' type='image/x-icon'/ >
+      <link rel="stylesheet" href="css/style.css" />
+   </head>
+   <body>
+      <header>
+         <div class="logo">
+            <img src="img/gagansingh-logo.png" alt="" />
+         </div>
+         <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+         </button>
+         <nav class="nav">
+            <ul class="nav__list">
+               <li class="nav__item">
+                  <a href="#home" class="nav__link">Home</a>
+               </li>
+               <li class="nav__item">
+                  <a href="#services" class="nav__link">What I Bring</a>
+               </li>
+               <li class="nav__item">
+                  <a href="#about" class="nav__link">About Me</a>
+               </li>
+               <li class="nav__item">
+                  <a href="#work" class="nav__link">My Work</a>
+               </li>
+               <li class="nav__item">
+                  <a href="#connect" class="nav__link">Let's Connect</a>
+               </li>
             </ul>
-        </footer>
+         </nav>
+      </header>
 
-        <script src="js/index.js"></script>
-    </body>
+      <main>
+         <!-- Introduction -->
+         <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+               Hi, I am <strong>Gagan Singh</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">
+               full-stack dev
+               <br />
+               project manager
+            </p>
+            <img
+               src="img/gagan-01.png"
+               alt="a picture of Gagan Singh smiling"
+               class="intro__img"
+            />
+         </section>
+
+         <!-- My services -->
+         <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">
+               What I Bring
+            </h2>
+            <div class="services">
+               <div class="service">
+                  <h3>Full Stack Development</h3>
+                  <p>
+                     From designing complex database schemas to implementing
+                     full-stack applications, I love the process of converting
+                     ideas into user-focused solutions. There's nothing better
+                     than seeing one of your creations take shape in a way that
+                     other people will enjoy using it.
+                  </p>
+               </div>
+               <!-- / service -->
+
+               <div class="service">
+                  <h3>Product Development</h3>
+                  <p>
+                     With experience in over four industries, namely,
+                     Automotive, Power Distribution, Heavy Equipment & Materials
+                     Engineering; I have always enjoyed creating something from
+                     nothing. Having developed products from conceptualization
+                     to delivery, I understand what it takes to make an idea
+                     into reality.
+                  </p>
+               </div>
+               <!-- / service -->
+
+               <div class="service">
+                  <h3>Project Management</h3>
+                  <p>
+                     Managing multi-million dollar projects can be hard, but it
+                     doesn't have to be boring. While working as a Project
+                     manager for the last 5 years, I gained first-hand insight
+                     into the complex workings of cross-functional teams and
+                     what it takes to deliver on-time and within budget.
+                  </p>
+               </div>
+               <!-- / service -->
+            </div>
+            <!-- / services -->
+
+            <a href="#work" class="btn">My Work</a>
+         </section>
+
+         <!-- About me -->
+         <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">
+               Full Stack dev &amp; PM from KW
+            </p>
+
+            <div class="about-me__body">
+               <p>
+                  I am a Full-Stack Developer from Kitchener with a background
+                  in Project Management &amp; Manufacturing Engineering, who
+                  enjoys problem-solving via creative ideation and
+                  implementation of user-first designs. I work at my best when I
+                  am creating new products or solving complex problems alongside
+                  other like-minded individuals.
+               </p>
+               <p>
+                  Outside of work, I am an avid hiker who likes to learn new
+                  skills and explore new places around the world.
+               </p>
+            </div>
+
+            <img
+               src="img/gagan-03.png"
+               alt="Gagan at the screaming heads"
+               class="about-me__img"
+            />
+         </section>
+
+         <!-- My Work -->
+         <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">
+               Some of my recent work
+            </p>
+
+            <div class="portfolio">
+               <!-- Portfolio item 01 -->
+               <div class="portfolio__item">
+                  <img
+                     src="img/project-travelog.gif"
+                     alt=""
+                     class="portfolio__img"
+                  />
+                  <h3>travelog</h3>
+                  <p>
+                     Travelog is a CRUD app where travellers can log places for
+                     easy access. It provides Login &amp; Signup functionality,
+                     along with the ability to view user places on an embedded
+                     Google Maps view.
+                  </p>
+                  <h4>
+                     Tech stack:
+                     <span
+                        >React, React Hooks, Node, Express, PostgreSQL, HTML5,
+                        CSS3</span
+                     >
+                  </h4>
+                  <div class="portfolio__links">
+                     <a
+                        href="https://travelog-app.now.sh/"
+                        target="_blank"
+                        class="btn"
+                        >Live Site</a
+                     >
+                     <a
+                        href="https://github.com/gaganssingh/travelog-app"
+                        target="_blank"
+                        class="btn"
+                        >Github repo</a
+                     >
+                  </div>
+               </div>
+
+               <hr />
+
+               <!-- Portfolio item 02 -->
+               <div class="portfolio__item">
+                  <img
+                     src="img/project-babyaid.gif"
+                     alt=""
+                     class="portfolio__img"
+                  />
+                  <h3>babyaid</h3>
+                  <p>
+                     Aimed at new parents, babyaid acts as a starter-guide and
+                     provides crucial information on feeding children under 1
+                     year of age. Along with these features, this app also
+                     includes an age-based recipe finder and find a doctor
+                     feature.
+                  </p>
+                  <h4>
+                     Tech stack:
+                     <span>React, Node, Express, PostgreSQL, HTML5, CSS3</span>
+                  </h4>
+                  <div class="portfolio__links">
+                     <a
+                        href="https://babyaid-client.now.sh/"
+                        target="_blank"
+                        class="btn"
+                        >Live Site</a
+                     >
+                     <a
+                        href="https://github.com/gaganssingh/babyaid-client"
+                        target="_blank"
+                        class="btn"
+                        >Github repo</a
+                     >
+                  </div>
+               </div>
+
+               <hr />
+
+               <!-- Portfolio item 03 -->
+               <div class="portfolio__item">
+                  <img
+                     src="img/project-cryptotracker.gif"
+                     alt=""
+                     class="portfolio__img"
+                  />
+                  <h3>CryptoTracker</h3>
+                  <p>
+                     CryptoTracker is a jQuery web app that lets users check
+                     prices of more than 30 cryptocurrencies against
+                     user-selected fiat currency.
+                  </p>
+                  <h4>
+                     Tech stack:
+                     <span>Javascript, jQuery, HTML5, CSS3</span>
+                  </h4>
+                  <div class="portfolio__links">
+                     <a
+                        href="https://gaganssingh.github.io/CryptoTracker/"
+                        target="_blank"
+                        class="btn"
+                        >Live Site</a
+                     >
+                     <a
+                        href="https://github.com/gaganssingh/CryptoTracker"
+                        target="_blank"
+                        class="btn"
+                        >Github repo</a
+                     >
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer" id="connect">
+         <h3>Let's Connect</h3>
+         <ul class="social-list">
+            <li class="social-list__item">
+               <a
+                  class="social-list__link"
+                  href="mailto:gagansingh.dev@outlook.com"
+                  target="_blank"
+               >
+                  <i class="fas fa-envelope-open-text"></i>
+               </a>
+            </li>
+            <li class="social-list__item">
+               <a
+                  class="social-list__link"
+                  href="https://www.linkedin.com/in/gssingh/"
+                  target="_blank"
+               >
+                  <i class="fab fa-linkedin"></i>
+               </a>
+            </li>
+            <li class="social-list__item">
+               <a
+                  class="social-list__link"
+                  href="https://github.com/gaganssingh"
+                  target="_blank"
+               >
+                  <i class="fab fa-github"></i>
+               </a>
+            </li>
+         </ul>
+      </footer>
+
+      <script src="js/index.js"></script>
+   </body>
 </html>
